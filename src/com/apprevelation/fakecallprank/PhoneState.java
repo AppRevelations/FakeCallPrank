@@ -35,6 +35,7 @@ public class PhoneState extends Service {
 	}
 
 	private final class CallStateListener extends PhoneStateListener {
+		
 		@Override
 		public void onCallStateChanged(int state, String incomingNumber) {
 
@@ -50,7 +51,7 @@ public class PhoneState extends Service {
 
 						//change the incoming number here 
 						//change the log as well
-
+						Toast.makeText(getApplicationContext(),"call from "+ incomingNumber, Toast.LENGTH_SHORT).show();
 						Toast.makeText(getApplicationContext(),"idle --> ringing = new incoming call", Toast.LENGTH_SHORT).show();
 						Log.d("state", "idle --> ringing = new incoming call");
 						// idle --> ringing = new incoming call
