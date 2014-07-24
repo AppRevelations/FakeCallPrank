@@ -36,4 +36,5 @@ Icon
 .Trashes
 
 /bin/
-/gen/
+/gen/gen
+bin
