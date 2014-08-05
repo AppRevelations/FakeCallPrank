@@ -6,7 +6,7 @@
     
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/etchangenumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -17,7 +17,7 @@
     </EditText>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etdisplaynumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -25,7 +25,7 @@
         android:inputType="phone" />
     
     <Button
-        android:id="@+id/bu"
+        android:id="@+id/bchange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="change" />
